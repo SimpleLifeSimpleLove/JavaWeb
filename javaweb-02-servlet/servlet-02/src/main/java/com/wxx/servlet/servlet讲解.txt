@@ -1,0 +1,17 @@
+
+
+
+
+//        this.getInitParameter();  // 初始化参数
+//        this.getServletConfig();  // Servlet配置
+//        this.getServletContext();  // Servlet上下文
+        /*
+            Web在启动的时候，它会为每个web程序都创建一个对应的ServletContext对象，它代表了当前的Web应用
+            作用：
+                (1) 共享数据：我在这个Servlet中保存的数据，可以在另外一个servlet中拿到; demo1
+                (2) 获取初始化参数; demo2
+                (3) 请求转发; demo3
+         */
+
+
+
