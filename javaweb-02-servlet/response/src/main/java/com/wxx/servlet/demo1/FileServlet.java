@@ -1,4 +1,4 @@
-package com.wxx.servlet;
+package com.wxx.servlet.demo1;
 
 import javax.servlet.ServletException;
 import javax.servlet.ServletOutputStream;
