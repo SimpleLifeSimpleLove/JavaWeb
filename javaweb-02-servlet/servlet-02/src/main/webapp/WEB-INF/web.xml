@@ -51,4 +51,13 @@
     <url-pattern>/ds</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>demo4</servlet-name>
+    <servlet-class>com.wxx.servlet.demo4.PropertiesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>demo4</servlet-name>
+    <url-pattern>/ps</url-pattern>
+  </servlet-mapping>
+
 </web-app>

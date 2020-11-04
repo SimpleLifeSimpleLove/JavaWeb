@@ -10,7 +10,8 @@
             作用：
                 (1) 共享数据：我在这个Servlet中保存的数据，可以在另外一个servlet中拿到; demo1
                 (2) 获取初始化参数; demo2
-                (3) 请求转发; demo3
+                (3) 请求转发; demo3     可以用Request去做
+                (3) 读取资源文件(Properties); demo4
          */
 
 
