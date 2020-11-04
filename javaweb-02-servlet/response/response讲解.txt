@@ -1,0 +1,25 @@
+
+web服务器接收到客户端的http请求，针对这个请求，分别创建一个代表请求的 HttpServletRequest 对象
+一个代表相应的 HttpServletResponse 对象;
+    如果要获取客户端请求过来的参数：找 HttpServletRequest
+    如果要给客户相应一些信息：找 HttpServletResponse
+
+HttpServletResponse
+    1.简单分类：...
+    2.常见应用
+        (1) 向浏览器输出消息
+        (2) 下载文件
+            // 1.获取下载文件的路径
+            // 2.下载文件的名称是啥？
+            // 3.设置想办法让浏览器能够支持我们需要下载的东西
+            // 4.获取下载文件的输入流
+            // 5.创建缓冲区
+            // 6.获取 OutputStream 对象
+            // 7.将 FileInputStream 流写入到 buffer 缓冲区, 使用 OutputStream 将缓冲区的数据输出到客户端
+
+
+
+
+
+
+
