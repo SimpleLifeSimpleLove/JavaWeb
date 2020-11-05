@@ -7,7 +7,7 @@
 
   <servlet>
     <servlet-name>LoginServlet</servlet-name>
-    <servlet-class>com.wxx.LoginServlet</servlet-class>
+    <servlet-class>com.wxx.servlet.LoginServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>LoginServlet</servlet-name>
