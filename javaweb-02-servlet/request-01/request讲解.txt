@@ -1,0 +1,9 @@
+
+
+HttpServletRequest代表客户端的请求，用户通过Http协议访问服务器，HTTP请求中的所有信息会被封装到HttpServletRequest
+通过这个HttpServletRequest的方法，获取客户端的所有信息。
+    作用：获取前端传递的参数，请求转发
+
+
+
+
