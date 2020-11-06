@@ -11,7 +11,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>CookieDemo01</servlet-name>
-        <url-pattern>/cookie01</url-pattern>
+        <url-pattern>/c1</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -20,7 +20,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>CookieDemo02</servlet-name>
-        <url-pattern>/cookie02</url-pattern>
+        <url-pattern>/c2</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -29,7 +29,39 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>CookieDemo03</servlet-name>
-        <url-pattern>/cookie03</url-pattern>
+        <url-pattern>/c3</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SessionDemo01</servlet-name>
+        <servlet-class>com.wxx.servlet.session.SessionDemo01</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionDemo01</servlet-name>
+        <url-pattern>/s1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SessionDemo02</servlet-name>
+        <servlet-class>com.wxx.servlet.session.SessionDemo02</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionDemo02</servlet-name>
+        <url-pattern>/s2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SessionDemo03</servlet-name>
+        <servlet-class>com.wxx.servlet.session.SessionDemo03</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionDemo03</servlet-name>
+        <url-pattern>/s3</url-pattern>
+    </servlet-mapping>
+
+    <session-config>
+        <!--1分钟后Session自动失效, 以分钟为单位-->
+        <session-timeout>1</session-timeout>
+    </session-config>
 
 </web-app>
