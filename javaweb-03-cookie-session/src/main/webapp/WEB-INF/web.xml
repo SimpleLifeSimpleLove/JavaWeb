@@ -1,0 +1,35 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0"
+         metadata-complete="true">
+
+    <servlet>
+        <servlet-name>CookieDemo01</servlet-name>
+        <servlet-class>com.wxx.servlet.cookie.CookieDemo01</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CookieDemo01</servlet-name>
+        <url-pattern>/cookie01</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CookieDemo02</servlet-name>
+        <servlet-class>com.wxx.servlet.cookie.CookieDemo02</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CookieDemo02</servlet-name>
+        <url-pattern>/cookie02</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CookieDemo03</servlet-name>
+        <servlet-class>com.wxx.servlet.cookie.CookieDemo03</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CookieDemo03</servlet-name>
+        <url-pattern>/cookie03</url-pattern>
+    </servlet-mapping>
+
+</web-app>
