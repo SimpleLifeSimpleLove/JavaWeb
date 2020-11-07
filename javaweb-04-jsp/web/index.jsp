@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page import="java.util.Date" %>
 <html>
 <head>
     <title>JSP表达式</title>
@@ -15,7 +16,7 @@ JSP表达式
     作用：用来将程序的输出，输出到客户端
     <%= 变量或者表达式 %>
 --%>
-<%= new java.util.Date() %>
+<%= new Date() %>
 
 
 <%--

@@ -136,3 +136,9 @@
 ### 8.3 JSP基础语法
 
 请查看index.jsp
+
+
+
+### 8.4 JSP指令
+
+请查看：index2.jsp、index3.jsp、index4.jsp、header.jsp、footer.jsp
