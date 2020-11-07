@@ -175,7 +175,25 @@ application.setAttribute("name4", "wxx04");  // 保存的数据在服务器中�
 
 
 
+### 8.6 JSP标签、JSTL标签、EL表达式
 
+* JSP标签
+  * 请参考 jsptag1.jsp、jsptag1.jsp
+* JSTL标签
+  * JSTL标签库的使用就是为了弥补HTML标签的不足；它自定义了许多标签，可以供我们使用，标签的功能和Java代码一样。（不使用也行，用Java语言完全可以代替，用的目的是为了美观）
+  * 分类
+    * 核心标签（掌握部分）
+    * 格式化标签
+    * SQL标签
+    * XML标签
+  * 使用步骤
+    * 引入对应的taglib
+    * 使用其中的方法
+  * 请参考jstlcore1.jsp、jstlcore2.jsp、jstlcore3.jsp
+* EL表达式：${ }
+  * 获取数据
+  * 执行运算
+  * 获取web开发常用对象
 
 
 
