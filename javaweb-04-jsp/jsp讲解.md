@@ -117,7 +117,7 @@
      _jspx_out = out;
      ```
 
-  4. 内置的8大对象我们可以在JSP页面中直接使用！
+  4. 内置的9大对象我们可以在JSP页面中直接使用！
 
 * 在JSP页面中：
 
@@ -142,3 +142,60 @@
 ### 8.4 JSP指令
 
 请查看：index2.jsp、index3.jsp、index4.jsp、header.jsp、footer.jsp
+
+
+
+### 8.5 九大内置对象
+
+* PageContext    存东西
+* Request    存东西
+* Response
+* Session    存东西
+* Application     [ServletContext]    存东西
+* config    [ServletConfig]
+* out
+* page , 不用
+* exception
+
+---
+
+```java
+pageContext.setAttribute("name1", "wxx01");  // 保存的数据只在一个页面中有效
+request.setAttribute("name2", "wxx02");  // 保存的数据只在一次请求中有效，请求转发也会携带这个数据
+session.setAttribute("name3", "wxx03");  // 保存的数据只在一次会话中有效，从打开浏览器到关闭浏览器
+application.setAttribute("name4", "wxx04");  // 保存的数据在服务器中有效，从打开服务器到关闭服务器
+```
+
+* 使用场景
+  * request：客户端向服务器发送请求，产生的数据，用户看完就没用了，比如：新闻，用户看完就没用了；
+  * session：客户端向服务器发送请求，产生的数据，用户看完一会还有用，比如：购物车；
+  * application：客户端向服务器发送请求，产生的数据，一个用户用完了，其他用户还可能使用，比如：聊天数据；
+
+请查看：pageContextDemo01.jsp、pageContextDemo02.jsp、pageContextDemo03.jsp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
