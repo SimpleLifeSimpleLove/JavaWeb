@@ -10,4 +10,45 @@
     </listener>
 
 
+    <!-- 注册过滤器-->
+    <filter>
+        <filter-name>CharacterEncodingFilter</filter-name>
+        <filter-class>com.wxx.filter.CharacterEncodingFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>CharacterEncodingFilter</filter-name>
+        <!-- 只要是/servlet下的请求，都会经过这个过滤器 -->
+        <url-pattern>/servlet/*</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>SysFilter</filter-name>
+        <filter-class>com.wxx.filter.SysFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>SysFilter</filter-name>
+        <!-- 只要是/servlet下的请求，都会经过这个过滤器 -->
+        <url-pattern>/sys/*</url-pattern>
+    </filter-mapping>
+
+
+    <!-- 注册servlet-->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.wxx.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/servlet/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.wxx.servlet.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/servlet/logout</url-pattern>
+    </servlet-mapping>
+
 </web-app>

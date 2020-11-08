@@ -4,3 +4,7 @@
     2.在web.xml中注册监听器
 
 
+本模块还包含一个小demo : 权限拦截
+    请访问如下网址进行访问：(注意tomcat的Application context配置为/)
+    http://localhost:8080/login.jsp
+
