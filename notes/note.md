@@ -38,3 +38,27 @@ public class HelloServlet extends HttpServlet {
 }
 ```
 
+配置文件无法导出或者生效的问题，解决方案：
+```xml
+<!--在build中配置resources，来防止我们资源导出失败问题-->
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resource</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>true</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+    </build>
+```
