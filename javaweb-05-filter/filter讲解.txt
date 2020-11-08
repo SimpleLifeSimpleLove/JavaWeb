@@ -2,5 +2,6 @@
 Filter开发步骤：
     1.导包(javax.servlet.Filter)
     2.编写过滤器
+    3.在web.xml中配置filter过滤器
 
 
