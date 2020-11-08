@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="javaweb-06-listener" />
         <module name="servlet-01" />
         <module name="request-01" />
         <module name="javaweb-01-maven" />
@@ -22,6 +23,7 @@
       <module name="javaweb-03-cookie-session" target="1.5" />
       <module name="javaweb-04-jsp" target="1.5" />
       <module name="javaweb-05-filter" target="1.5" />
+      <module name="javaweb-06-listener" target="1.5" />
       <module name="request" target="1.5" />
       <module name="request-01" target="1.5" />
       <module name="response" target="1.5" />
