@@ -62,3 +62,6 @@ public class HelloServlet extends HttpServlet {
         </resources>
     </build>
 ```
+
+新建module没有artifacts的问题：https://blog.csdn.net/guangmo0123/article/details/105653943/
+

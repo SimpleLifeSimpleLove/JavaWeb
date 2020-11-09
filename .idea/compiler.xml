@@ -6,10 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="javaweb-06-listener" />
+        <module name="javaweb-01-maven" />
         <module name="servlet-01" />
         <module name="request-01" />
-        <module name="javaweb-01-maven" />
+        <module name="javaweb-07-smbms" />
+        <module name="javaweb-06-listener" />
         <module name="servlet-02" />
         <module name="javaweb-04-jsp" />
         <module name="javaweb-05-filter" />
@@ -24,13 +25,11 @@
       <module name="javaweb-04-jsp" target="1.5" />
       <module name="javaweb-05-filter" target="1.5" />
       <module name="javaweb-06-listener" target="1.5" />
-      <module name="request" target="1.5" />
+      <module name="javaweb-07-smbms" target="8" />
       <module name="request-01" target="1.5" />
       <module name="response" target="1.5" />
       <module name="servlet-01" target="1.8" />
       <module name="servlet-02" target="1.5" />
-      <module name="test" target="1.5" />
-      <module name="untitled" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
